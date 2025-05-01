@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    width: 0 auto;
+}
+/* main start  */
+
+body{
+    background-image: url('../images/background-img.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+.main{
+    overflow-y: scroll;
+    height: 400px;
+    width: 350px;
+    background-color:rgba(128, 128, 128, 0.766);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(255, 254, 254);
+}
+.main>img{
+    margin-top: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.main>h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.main>h3{
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.main>p{
+    margin: 10px 0;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: sans-serif;
+
+}
+.main b{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+.main>div{
+    display: flex;
+    gap: 40px;
+    font-size: 32px;
+    color: aliceblue;
+    margin: 20px 0;
+}
+.main>div a{
+    color: aliceblue;
+}
+
+
+/* main end  */
+
+/* footer start  */
+footer{
+    background-color:rgba(128, 128, 128, 0.766);
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+}
+footer div p{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+footer div.address{
+    display: flex;
+    justify-content: start;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.footer-icon a i{
+    font-size: 32px;
+    color: aliceblue;
+}
+/* footer end  */
